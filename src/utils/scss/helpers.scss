@@ -1,0 +1,9 @@
+@function token($name, $map) {
+  // Retrieve the value from the map using the name key
+  @return var(--#{$name}, map-get($map, $name));
+}
+
+@function px-to-rem($value, $base) {
+  $remValue: calc($value / $base) + rem;
+  @return $remValue;
+}
