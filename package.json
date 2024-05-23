@@ -29,7 +29,8 @@
   },
   "files": [
     "build/css",
-    "build/scss"
+    "build/scss",
+    "utils/scss/"
   ],
   "dependencies": {
     "chalk": "^5.3.0",
