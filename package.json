@@ -1,6 +1,6 @@
 {
   "name": "@ugent-ui/design-tokens",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "Single source of truth to name and store design decisions",
   "type": "module",
   "scripts": {
@@ -30,7 +30,7 @@
   "files": [
     "build/css",
     "build/scss",
-    "utils/scss/"
+    "src/utils/scss/"
   ],
   "dependencies": {
     "chalk": "^5.3.0",
