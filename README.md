@@ -99,8 +99,8 @@ body {
 
 #### Zeroheight
 
-Zeroheight wordt gebruikt voor het documenteren van het Design System. Omdat ZeroHeight ook de W3C Draft Specification for Design Tokens volgt, is het mogelijk om direct te verwijzen naar de `tokens-raw/tokens.json` master file: https://github.com/KarelVanAchte/Design-Tokens/blob/main/tokens/tokens.json
+Zeroheight wordt gebruikt voor het documenteren van het Design System. Omdat ZeroHeight ook de W3C Draft Specification for Design Tokens volgt, is het mogelijk om direct te verwijzen naar de `tokens-raw/tokens.json` master file: https://github.com/UGentUI/design-tokens/blob/main/tokens-raw/tokens.json
 
 #### Figma Token Studio
 
-Voor Figma Token Studio is een transformer vereist. Deze transformer converteert de design tokens naar een formaat dat compatibel is met Figma Token Studio en ondersteunt de themes functionaliteit. Gebruik de `tokens-parsed/figma-token-studio/tokens.json` file: https://github.com/KarelVanAchte/Design-Tokens/blob/main/tokens/parsed/figma-token-studio/tokens.json
+Voor Figma Token Studio is een transformer vereist. Deze transformer converteert de design tokens naar een formaat dat compatibel is met Figma Token Studio en ondersteunt de themes functionaliteit. Gebruik de `tokens-parsed/figma-token-studio/tokens.json` file: https://github.com/UGentUI/design-tokens/blob/main/tokens-parsed/figma-token-studio/tokens.json
