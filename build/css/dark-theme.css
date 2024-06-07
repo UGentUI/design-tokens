@@ -13,7 +13,7 @@
   --color-link-default: var(--dark-color-link-default, #93c2ff);
   --color-link-pressed: var(--dark-color-link-pressed, #bedbff);
   --color-link-visited: var(--dark-color-link-visited, #519afe);
-  --color-border-default: var(--dark-color-border-default, #03040570);
+  --color-border-default: var(--dark-color-border-default, #4D5C7530);
   --color-elevation-surface-basic-default: var(--dark-color-elevation-surface-basic-default, #131a20);
   --color-elevation-surface-basic-hovered: var(--dark-color-elevation-surface-basic-hovered, #1d262e);
   --color-elevation-surface-basic-pressed: var(--dark-color-elevation-surface-basic-pressed, #28333c);
