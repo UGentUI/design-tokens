@@ -36,7 +36,7 @@ Importeer en gebruik **alle** design tokens als CSS custom properies in je proje
 Importeer en gebruik **alle** design tokens als SCSS-variabelen in je project:
 
 ```scss
-@import "node_modules/@ugent-ui/design-tokens/build/scss/_variables";
+@import "@ugent-ui/design-tokens/build/scss/_variables";
 
 $example-var: $light-color-text-brand;
 
@@ -83,10 +83,10 @@ Importeer de core en theme bestanden in je project en stel het relevante `color-
 Importeer de design tokens SCSS maps en helpers, en gebruik de token functie om een design token op te halen uit een opgegeven map en een fallback waarde te gebruiken indien het token niet beschikbaar is als CSS-variabele:
 
 ```scss
-@import "node_modules/@ugent-ui/design-tokens/build/scss/_core-map";
-@import "node_modules/@ugent-ui/design-tokens/build/scss/_light-theme-map";
-@import "node_modules/@ugent-ui/design-tokens/build/scss/_dark-theme-map";
-@import "node_modules/@ugent-ui/design-tokens/utils/scss/helpers";
+@import "@ugent-ui/design-tokens/build/scss/_core-map";
+@import "@ugent-ui/design-tokens/build/scss/_light-theme-map";
+@import "@ugent-ui/design-tokens/build/scss/_dark-theme-map";
+@import "@ugent-ui/design-tokens/src/utils/scss/helpers";
 
 body {
   background-color: token("color-elevation-surface-basic-default", $light);
@@ -95,7 +95,32 @@ body {
 // Output: background-color: var(--color-elevation-surface-basic-default, #ffffff);
 ```
 
-### Externe design token consumers
+### Design token consumers
+
+#### Bootstrap
+
+Om Bootstrap aan te passen met de design tokens, volg je deze stappen:
+
+1. Importeer de design tokens en SCSS-helpers en wijs de thema maps toe aan variabelen.
+2. Gebruik de token functie om Bootstrap variabelen te overschrijven met waarden uit de design tokens.
+3. Importeer de Bootstrap SCSS-bestanden zodat de aangepaste variabelen worden toegepast
+
+```scss
+// Design Tokens
+@use "@ugent-ui/design-tokens/build/scss/_light-theme-map" as light-theme-map;
+@use "@ugent-ui/design-tokens/build/scss/_dark-theme-map" as dark-theme-map;
+@use "@ugent-ui/design-tokens/build/scss/_core-map" as core-map;
+@import "@ugent-ui/design-tokens/src/utils/scss/helpers";
+
+// Override Bootstrap vars
+$navbar-padding-y: token("space-0", core-map.$core);
+$navbar-brand-padding-y: token("space-0", core-map.$core);
+$grid-gutter-width: map-get(core-map.$core, "space-400");
+...
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap";
+```
 
 #### Zeroheight
 
