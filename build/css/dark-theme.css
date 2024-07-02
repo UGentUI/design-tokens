@@ -17,6 +17,11 @@
   --color-elevation-surface-basic-default: var(--dark-color-elevation-surface-basic-default, #131a20);
   --color-elevation-surface-basic-hovered: var(--dark-color-elevation-surface-basic-hovered, #1d262e);
   --color-elevation-surface-basic-pressed: var(--dark-color-elevation-surface-basic-pressed, #28333c);
+  --color-background-brand-default: var(--dark-color-background-brand-default, #1e64c8);
+  --color-background-danger-default: var(--dark-color-background-danger-default, #983508);
+  --color-background-warning-default: var(--dark-color-background-warning-default, #998100);
+  --color-background-succes-default: var(--dark-color-background-succes-default, #007c61);
+  --color-background-information-default: var(--dark-color-background-information-default, #007e89);
   --neutral-0: var(--core-neutral-dark-0, #030405);
   --neutral-100: var(--core-neutral-dark-100, #131a20);
   --neutral-200: var(--core-neutral-dark-200, #1d262e);
