@@ -30,7 +30,9 @@
   "files": [
     "build/css",
     "build/scss",
-    "src/utils/scss/"
+    "src/utils/scss",
+    "tokens-raw",
+    "tokens-parsed"
   ],
   "dependencies": {
     "chalk": "^5.3.0",
