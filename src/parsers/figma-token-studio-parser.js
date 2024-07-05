@@ -24,6 +24,10 @@ function replaceTokenTypes(tokens) {
     "core.font.family": "fontFamilies",
     "core.font.weight": "fontWeights",
     "core.font.lineheight": "lineHeights",
+    "core.font.body": "fontSizes",
+    "core.font.heading": "fontSizes",
+    "core.border.width": "borderWidth",
+    "core.border.radius": "borderRadius",
   };
 
   function traverseAndReplace(obj, currentPath = "") {
