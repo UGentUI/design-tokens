@@ -154,7 +154,19 @@ styleDictionary.registerFormat({
     let output = `$${mapName}: (\n`;
     dictionary.allProperties.map((prop) => {
       const baseName = prop.name.replace(/core-|dark-|light-/g, ""); // Simplify token name
-      output += `  "${baseName}": ${prop.value},\n`;
+      let formattedValue = prop.value;
+
+      if (prop.type === "boxShadow") {
+        // Ensure boxShadow values are formatted as lists
+        formattedValue = `(${prop.value.split(",").join(", ")})`;
+      } else if (Array.isArray(prop.value)) {
+        formattedValue = `(${prop.value.join(", ")})`; // Format array as a list
+      } else if (typeof prop.value === "string" && prop.value.includes(",")) {
+        // This condition checks for string values that might be lists (like font-families)
+        formattedValue = `(${prop.value.split(",").join(", ")})`;
+      }
+
+      output += `  "${baseName}": ${formattedValue},\n`;
     });
     output += ");";
     return output;
