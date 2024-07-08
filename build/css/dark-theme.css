@@ -38,6 +38,13 @@
   --color-background-information-default: var(--dark-color-background-information-default, #007e89);
   --color-background-information-hovered: var(--dark-color-background-information-hovered, #0098a6);
   --color-background-information-pressed: var(--dark-color-background-information-pressed, #00b3c3);
+  --color-background-neutral-default: var(--dark-color-background-neutral-default, #333f4a);
+  --color-background-neutral-hovered: var(--dark-color-background-neutral-hovered, #3f4c58);
+  --color-background-neutral-pressed: var(--dark-color-background-neutral-pressed, #596773);
+  --color-background-input-default: var(--dark-color-background-input-default, #1d262e);
+  --color-background-input-hovered: var(--dark-color-background-input-hovered, #28333c);
+  --color-background-input-pressed: var(--dark-color-background-input-pressed, #333f4a);
+  --color-background-disabled: var(--dark-color-background-disabled, #03040580);
   --elevation-surface-basic-default: var(--dark-elevation-surface-basic-default, #131a20);
   --elevation-surface-basic-hovered: var(--dark-elevation-surface-basic-hovered, #1d262e);
   --elevation-surface-basic-pressed: var(--dark-elevation-surface-basic-pressed, #28333c);
