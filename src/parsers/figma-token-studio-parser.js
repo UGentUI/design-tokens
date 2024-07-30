@@ -49,6 +49,50 @@ function replaceTokenTypes(tokens) {
   return tokens;
 }
 
+// Token Studio $themes and $metadata
+const tokenStudioThemesAndMetadata = {
+  $themes: [
+    {
+      id: "b2e2be6ff5c7761939b69817eabbbe2f88f5ab91",
+      name: "core",
+      selectedTokenSets: {
+        core: "enabled",
+      },
+      $figmaStyleReferences: {},
+      $figmaVariableReferences: {},
+      $figmaCollectionId: "VariableCollectionId:10:349",
+      $figmaModeId: "10:9",
+    },
+    {
+      id: "6a148de1a5f4c2ef8bfd53876881c3cb5e3b2baa",
+      name: "light",
+      selectedTokenSets: {
+        core: "source",
+        light: "enabled",
+      },
+      $figmaStyleReferences: {},
+      $figmaVariableReferences: {},
+      $figmaCollectionId: "VariableCollectionId:10:456",
+      $figmaModeId: "10:10",
+    },
+    {
+      id: "523c952e5224ccc914212943c7ae93e11298ef35",
+      name: "dark",
+      selectedTokenSets: {
+        core: "source",
+        dark: "enabled",
+      },
+      $figmaStyleReferences: {},
+      $figmaVariableReferences: {},
+      $figmaCollectionId: "VariableCollectionId:10:467",
+      $figmaModeId: "10:11",
+    },
+  ],
+  $metadata: {
+    tokenSetOrder: ["core", "light", "dark"],
+  },
+};
+
 // Load original design tokens JSON file
 fs.readFile(inputFilePath, "utf8", (err, data) => {
   if (err) throw err;
@@ -57,6 +101,9 @@ fs.readFile(inputFilePath, "utf8", (err, data) => {
 
   // Replace token types with Figma Token Studio specific types
   designTokensJson = replaceTokenTypes(designTokensJson);
+
+  // Merge the $themes and $metadata into the design tokens JSON
+  designTokensJson = { ...designTokensJson, ...tokenStudioThemesAndMetadata };
 
   // Ensure the output directory exists
   fs.mkdir(outputDir, { recursive: true }, (err) => {
