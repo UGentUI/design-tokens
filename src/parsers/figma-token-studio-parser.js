@@ -102,6 +102,9 @@ fs.readFile(inputFilePath, "utf8", (err, data) => {
   // Replace token types with Figma Token Studio specific types
   designTokensJson = replaceTokenTypes(designTokensJson);
 
+  // Add composite tokens for Typography
+  //designTokensJson = addTypographyTokens(designTokensJson);
+
   // Merge the $themes and $metadata into the design tokens JSON
   designTokensJson = { ...designTokensJson, ...tokenStudioThemesAndMetadata };
 

@@ -4,7 +4,7 @@
   --color-text-disabled: var(--dark-color-text-disabled, #03040550);
   --color-text-selected: var(--dark-color-text-selected, #6eacff);
   --color-text-brand: var(--dark-color-text-brand, #1e64c8);
-  --color-text-danger: var(--dark-color-text-danger, #983508);
+  --color-text-danger: var(--dark-color-text-danger, #ac2b14);
   --color-text-warning: var(--dark-color-text-warning, #998100);
   --color-text-succes: var(--dark-color-text-succes, #007c61);
   --color-text-information: var(--dark-color-text-information, #007e89);
@@ -18,7 +18,7 @@
   --color-border-disabled: var(--dark-color-border-disabled, #03040550);
   --color-border-selected: var(--dark-color-border-selected, #6eacff);
   --color-border-brand: var(--dark-color-border-brand, #1e64c8);
-  --color-border-danger: var(--dark-color-border-danger, #983508);
+  --color-border-danger: var(--dark-color-border-danger, #ac2b14);
   --color-border-warning: var(--dark-color-border-warning, #998100);
   --color-border-succes: var(--dark-color-border-succes, #007c61);
   --color-border-information: var(--dark-color-border-information, #007e89);
@@ -26,9 +26,9 @@
   --color-background-brand-default: var(--dark-color-background-brand-default, #1e64c8);
   --color-background-brand-hovered: var(--dark-color-background-brand-hovered, #2b7beb);
   --color-background-brand-pressed: var(--dark-color-background-brand-pressed, #3b8af8);
-  --color-background-danger-default: var(--dark-color-background-danger-default, #983508);
-  --color-background-danger-hovered: var(--dark-color-background-danger-hovered, #b94713);
-  --color-background-danger-pressed: var(--dark-color-background-danger-pressed, #db5f28);
+  --color-background-danger-default: var(--dark-color-background-danger-default, #ac2b14);
+  --color-background-danger-hovered: var(--dark-color-background-danger-hovered, #d43a28);
+  --color-background-danger-pressed: var(--dark-color-background-danger-pressed, #fc5249);
   --color-background-warning-default: var(--dark-color-background-warning-default, #998100);
   --color-background-warning-hovered: var(--dark-color-background-warning-hovered, #bb9d00);
   --color-background-warning-pressed: var(--dark-color-background-warning-pressed, #ddb800);

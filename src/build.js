@@ -14,7 +14,10 @@ const styleDictionary = StyleDictionary.extend({
             selector: ":root",
           },
           filter: (token) => {
-            return !token.name.startsWith("core-color");
+            return (
+              !token.name.startsWith("core-color") &&
+              !token.name.startsWith("typography")
+            );
           },
         },
         // Light theme CSS
@@ -71,7 +74,10 @@ const styleDictionary = StyleDictionary.extend({
           destination: "scss/_variables.scss",
           format: "scss/variables",
           filter: (token) => {
-            return !token.name.startsWith("core-color");
+            return (
+              !token.name.startsWith("core-color") &&
+              !token.name.startsWith("typography")
+            );
           },
         },
         {

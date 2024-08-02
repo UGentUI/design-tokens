@@ -11,7 +11,7 @@ export default function transformDesignTokens(
       if (typeof value === "object" && value !== null) {
         value = transformObject(value); // Recursive call to transform nested objects
       } else if (typeof value === "string" && modifyReferences) {
-        value = value.replace(/\{core\.(color|neutral)\.(.*?)\}/g, "{$1.$2}");
+        value = value.replace(/\{core\.(.*?)\}/g, "{$1}"); // Update regex to match any core.* pattern
       }
 
       transformed[newKey] = value;

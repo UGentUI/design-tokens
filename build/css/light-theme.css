@@ -4,7 +4,7 @@
   --color-text-disabled: var(--light-color-text-disabled, #4D5C7550);
   --color-text-selected: var(--light-color-text-selected, #2b7beb);
   --color-text-brand: var(--light-color-text-brand, #1e64c8);
-  --color-text-danger: var(--light-color-text-danger, #fc814a);
+  --color-text-danger: var(--light-color-text-danger, #fd7967);
   --color-text-warning: var(--light-color-text-warning, #ffd200);
   --color-text-succes: var(--light-color-text-succes, #00c49a);
   --color-text-information: var(--light-color-text-information, #00cddf);
@@ -18,7 +18,7 @@
   --color-border-disabled: var(--light-color-border-disabled, #4D5C7550);
   --color-border-selected: var(--light-color-border-selected, #2b7beb);
   --color-border-brand: var(--light-color-border-brand, #1e64c8);
-  --color-border-danger: var(--light-color-border-danger, #fc814a);
+  --color-border-danger: var(--light-color-border-danger, #fd7967);
   --color-border-warning: var(--light-color-border-warning, #ffd200);
   --color-border-succes: var(--light-color-border-succes, #00c49a);
   --color-border-information: var(--light-color-border-information, #00cddf);
@@ -26,9 +26,9 @@
   --color-background-brand-default: var(--light-color-background-brand-default, #1e64c8);
   --color-background-brand-hovered: var(--light-color-background-brand-hovered, #083879);
   --color-background-brand-pressed: var(--light-color-background-brand-pressed, #001633);
-  --color-background-danger-default: var(--light-color-background-danger-default, #fc814a);
-  --color-background-danger-hovered: var(--light-color-background-danger-hovered, #db5f28);
-  --color-background-danger-pressed: var(--light-color-background-danger-pressed, #b94713);
+  --color-background-danger-default: var(--light-color-background-danger-default, #fd7967);
+  --color-background-danger-hovered: var(--light-color-background-danger-hovered, #fc5249);
+  --color-background-danger-pressed: var(--light-color-background-danger-pressed, #d43a28);
   --color-background-warning-default: var(--light-color-background-warning-default, #ffd200);
   --color-background-warning-hovered: var(--light-color-background-warning-hovered, #ddb800);
   --color-background-warning-pressed: var(--light-color-background-warning-pressed, #bb9d00);
