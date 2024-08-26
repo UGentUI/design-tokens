@@ -6,7 +6,7 @@
   --color-text-brand: var(--dark-color-text-brand, #1e64c8);
   --color-text-danger: var(--dark-color-text-danger, #ac2b14);
   --color-text-warning: var(--dark-color-text-warning, #998100);
-  --color-text-succes: var(--dark-color-text-succes, #007c61);
+  --color-text-success: var(--dark-color-text-success, #007c61);
   --color-text-information: var(--dark-color-text-information, #007e89);
   --color-text-subtle: var(--dark-color-text-subtle, #98a1a9);
   --color-text-subtlest: var(--dark-color-text-subtlest, #78848e);
@@ -20,7 +20,7 @@
   --color-border-brand: var(--dark-color-border-brand, #1e64c8);
   --color-border-danger: var(--dark-color-border-danger, #ac2b14);
   --color-border-warning: var(--dark-color-border-warning, #998100);
-  --color-border-succes: var(--dark-color-border-succes, #007c61);
+  --color-border-success: var(--dark-color-border-success, #007c61);
   --color-border-information: var(--dark-color-border-information, #007e89);
   --color-border-input: var(--dark-color-border-input, #3f4c58);
   --color-background-brand-default: var(--dark-color-background-brand-default, #1e64c8);
@@ -32,9 +32,9 @@
   --color-background-warning-default: var(--dark-color-background-warning-default, #998100);
   --color-background-warning-hovered: var(--dark-color-background-warning-hovered, #bb9d00);
   --color-background-warning-pressed: var(--dark-color-background-warning-pressed, #ddb800);
-  --color-background-succes-default: var(--dark-color-background-succes-default, #007c61);
-  --color-background-succes-hovered: var(--dark-color-background-succes-hovered, #009474);
-  --color-background-succes-pressed: var(--dark-color-background-succes-pressed, #00ac87);
+  --color-background-success-default: var(--dark-color-background-success-default, #007c61);
+  --color-background-success-hovered: var(--dark-color-background-success-hovered, #009474);
+  --color-background-success-pressed: var(--dark-color-background-success-pressed, #00ac87);
   --color-background-information-default: var(--dark-color-background-information-default, #007e89);
   --color-background-information-hovered: var(--dark-color-background-information-hovered, #0098a6);
   --color-background-information-pressed: var(--dark-color-background-information-pressed, #00b3c3);

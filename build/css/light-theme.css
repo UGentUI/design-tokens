@@ -6,7 +6,7 @@
   --color-text-brand: var(--light-color-text-brand, #1e64c8);
   --color-text-danger: var(--light-color-text-danger, #fd7967);
   --color-text-warning: var(--light-color-text-warning, #ffd200);
-  --color-text-succes: var(--light-color-text-succes, #00c49a);
+  --color-text-success: var(--light-color-text-success, #00c49a);
   --color-text-information: var(--light-color-text-information, #00cddf);
   --color-text-subtle: var(--light-color-text-subtle, #39475e);
   --color-text-subtlest: var(--light-color-text-subtlest, #4d5c75);
@@ -20,7 +20,7 @@
   --color-border-brand: var(--light-color-border-brand, #1e64c8);
   --color-border-danger: var(--light-color-border-danger, #fd7967);
   --color-border-warning: var(--light-color-border-warning, #ffd200);
-  --color-border-succes: var(--light-color-border-succes, #00c49a);
+  --color-border-success: var(--light-color-border-success, #00c49a);
   --color-border-information: var(--light-color-border-information, #00cddf);
   --color-border-input: var(--light-color-border-input, #8590a2);
   --color-background-brand-default: var(--light-color-background-brand-default, #1e64c8);
@@ -32,9 +32,9 @@
   --color-background-warning-default: var(--light-color-background-warning-default, #ffd200);
   --color-background-warning-hovered: var(--light-color-background-warning-hovered, #ddb800);
   --color-background-warning-pressed: var(--light-color-background-warning-pressed, #bb9d00);
-  --color-background-succes-default: var(--light-color-background-succes-default, #00c49a);
-  --color-background-succes-hovered: var(--light-color-background-succes-hovered, #00ac87);
-  --color-background-succes-pressed: var(--light-color-background-succes-pressed, #009474);
+  --color-background-success-default: var(--light-color-background-success-default, #00c49a);
+  --color-background-success-hovered: var(--light-color-background-success-hovered, #00ac87);
+  --color-background-success-pressed: var(--light-color-background-success-pressed, #009474);
   --color-background-information-default: var(--light-color-background-information-default, #00cddf);
   --color-background-information-hovered: var(--light-color-background-information-hovered, #00b3c3);
   --color-background-information-pressed: var(--light-color-background-information-pressed, #0098a6);

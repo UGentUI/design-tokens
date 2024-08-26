@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 06 Aug 2024 08:25:47 GMT
+ * Generated on Mon, 26 Aug 2024 15:03:55 GMT
  */
 
 :root {
@@ -11,7 +11,7 @@
   --light-color-text-brand: #1e64c8;
   --light-color-text-danger: #fd7967;
   --light-color-text-warning: #ffd200;
-  --light-color-text-succes: #00c49a;
+  --light-color-text-success: #00c49a;
   --light-color-text-information: #00cddf;
   --light-color-text-subtle: #39475e;
   --light-color-text-subtlest: #4d5c75;
@@ -25,7 +25,7 @@
   --light-color-border-brand: #1e64c8;
   --light-color-border-danger: #fd7967;
   --light-color-border-warning: #ffd200;
-  --light-color-border-succes: #00c49a;
+  --light-color-border-success: #00c49a;
   --light-color-border-information: #00cddf;
   --light-color-border-input: #8590a2;
   --light-color-background-brand-default: #1e64c8;
@@ -37,9 +37,9 @@
   --light-color-background-warning-default: #ffd200;
   --light-color-background-warning-hovered: #ddb800;
   --light-color-background-warning-pressed: #bb9d00;
-  --light-color-background-succes-default: #00c49a;
-  --light-color-background-succes-hovered: #00ac87;
-  --light-color-background-succes-pressed: #009474;
+  --light-color-background-success-default: #00c49a;
+  --light-color-background-success-hovered: #00ac87;
+  --light-color-background-success-pressed: #009474;
   --light-color-background-information-default: #00cddf;
   --light-color-background-information-hovered: #00b3c3;
   --light-color-background-information-pressed: #0098a6;
@@ -70,7 +70,7 @@
   --dark-color-text-brand: #1e64c8;
   --dark-color-text-danger: #ac2b14;
   --dark-color-text-warning: #998100;
-  --dark-color-text-succes: #007c61;
+  --dark-color-text-success: #007c61;
   --dark-color-text-information: #007e89;
   --dark-color-text-subtle: #98a1a9;
   --dark-color-text-subtlest: #78848e;
@@ -84,7 +84,7 @@
   --dark-color-border-brand: #1e64c8;
   --dark-color-border-danger: #ac2b14;
   --dark-color-border-warning: #998100;
-  --dark-color-border-succes: #007c61;
+  --dark-color-border-success: #007c61;
   --dark-color-border-information: #007e89;
   --dark-color-border-input: #3f4c58;
   --dark-color-background-brand-default: #1e64c8;
@@ -96,9 +96,9 @@
   --dark-color-background-warning-default: #998100;
   --dark-color-background-warning-hovered: #bb9d00;
   --dark-color-background-warning-pressed: #ddb800;
-  --dark-color-background-succes-default: #007c61;
-  --dark-color-background-succes-hovered: #009474;
-  --dark-color-background-succes-pressed: #00ac87;
+  --dark-color-background-success-default: #007c61;
+  --dark-color-background-success-hovered: #009474;
+  --dark-color-background-success-pressed: #00ac87;
   --dark-color-background-information-default: #007e89;
   --dark-color-background-information-hovered: #0098a6;
   --dark-color-background-information-pressed: #00b3c3;
