@@ -64,6 +64,20 @@ const styleDictionary = StyleDictionary.extend({
             );
           },
         },
+        // Colors CSS
+        {
+          destination: "css/colors.css",
+          format: "css/core-variables",
+          options: {
+            selector: ":root",
+          },
+          filter: (token) => {
+            return (
+              token.attributes.category === "core" &&
+              token.name.startsWith("core-color")
+            );
+          },
+        },
       ],
     },
     scss: {
@@ -112,6 +126,17 @@ const styleDictionary = StyleDictionary.extend({
             return (
               token.attributes.category === "core" &&
               !token.name.startsWith("core-color")
+            );
+          },
+        },
+        {
+          destination: "scss/_colors.scss",
+          format: "scss/map-flat-core",
+          mapName: "colors",
+          filter: (token) => {
+            return (
+              token.attributes.category === "core" &&
+              token.name.startsWith("core-color")
             );
           },
         },
