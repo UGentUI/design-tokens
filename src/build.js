@@ -130,7 +130,7 @@ const styleDictionary = StyleDictionary.extend({
           },
         },
         {
-          destination: "scss/_colors.scss",
+          destination: "scss/_colors-map.scss",
           format: "scss/map-flat-core",
           mapName: "colors",
           filter: (token) => {
