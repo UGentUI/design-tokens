@@ -7,3 +7,12 @@
   $remValue: calc($value / $base) + rem;
   @return $remValue;
 }
+
+// Convert hexadecimal color values to RGB for Bootstrap because it sometimes assumes RGB values
+@function rgb($hexcolor){
+  $red:red($hexcolor);
+  $green:green($hexcolor);
+  $blue:blue($hexcolor);
+  $alpha:alpha($hexcolor);
+  @return unquote("rgb(#{$red},#{$green},#{$blue})");
+}
