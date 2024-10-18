@@ -1,6 +1,6 @@
 :root[data-color-mode="dark"] {
-  --color-text-default: var(--dark-color-text-default, #F1F2F4);
-  --color-text-inverse: var(--dark-color-text-inverse, #1B1F22);
+  --color-text-default: var(--dark-color-text-default, #D6DAE1);
+  --color-text-inverse: var(--dark-color-text-inverse, #2B3136);
   --color-text-disabled: var(--dark-color-text-disabled, #8B959F50);
   --color-text-selected: var(--dark-color-text-selected, #1753A6);
   --color-text-brand: var(--dark-color-text-brand, #1E64C8);
@@ -10,9 +10,9 @@
   --color-text-information: var(--dark-color-text-information, #00E8FC);
   --color-text-subtle: var(--dark-color-text-subtle, #BDC3CB);
   --color-text-subtlest: var(--dark-color-text-subtlest, #A4ACB5);
-  --color-link-default: var(--dark-color-link-default, #1E64C8);
-  --color-link-pressed: var(--dark-color-link-pressed, #407CD1);
-  --color-link-visited: var(--dark-color-link-visited, #1753A6);
+  --color-link-default: var(--dark-color-link-default, #407CD1);
+  --color-link-pressed: var(--dark-color-link-pressed, #6294DA);
+  --color-link-visited: var(--dark-color-link-visited, #1E64C8);
   --color-border-default: var(--dark-color-border-default, #8590A230);
   --color-border-inverse: var(--dark-color-border-inverse, #1B1F22);
   --color-border-disabled: var(--dark-color-border-disabled, #8B959F50);
