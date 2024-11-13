@@ -49,6 +49,22 @@ function replaceTokenTypes(tokens) {
   return tokens;
 }
 
+// Function to replace typography references like {typography.font-family-sans} with {font-family-sans}
+function fixTypographyReferences(tokens) {
+  function traverseAndFix(obj) {
+    for (const key in obj) {
+      if (typeof obj[key] === "object" && obj[key] !== null) {
+        traverseAndFix(obj[key]); // Recursive call to handle nested objects
+      } else if (typeof obj[key] === "string") {
+        // Replace typography references
+        obj[key] = obj[key].replace(/\{typography\.(.*?)\}/g, "{$1}");
+      }
+    }
+  }
+  traverseAndFix(tokens);
+  return tokens;
+}
+
 // Token Studio $themes and $metadata
 const tokenStudioThemesAndMetadata = {
   $themes: [
@@ -99,8 +115,9 @@ fs.readFile(inputFilePath, "utf8", (err, data) => {
   let designTokensJson = JSON.parse(data);
   designTokensJson = transformDesignTokens(designTokensJson, true);
 
-  // Replace token types with Figma Token Studio specific types
+  // Apply the replacement and fix typography references
   designTokensJson = replaceTokenTypes(designTokensJson);
+  designTokensJson = fixTypographyReferences(designTokensJson);
 
   // Add composite tokens for Typography
   //designTokensJson = addTypographyTokens(designTokensJson);
